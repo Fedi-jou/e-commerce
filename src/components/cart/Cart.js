@@ -38,7 +38,7 @@ function Cart({
       </Grid>
       <div className={classes.cardDetails}>
         <Typography variant="h4">
-          Subtotal: {cart.subtotal.formatted_with_symbol}
+          Total Price: {cart.subtotal.formatted_with_symbol}
         </Typography>
         <div>
           <Button

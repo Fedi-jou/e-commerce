@@ -20,12 +20,11 @@ function Adressform({ checkouttoken, next }) {
   const [shippingOptions, setShippingOptions] = useState([]);
   const [shippingOption, setShippingOption] = useState("");
   const methods = useForm();
-
   const fetchcountries = async (checkoutTokenId) => {
     const { countries } = await commerce.services.localeListShippingCountries(
       checkoutTokenId
     );
-    console.log(countries, "countries");
+
     setShippingCountries(countries);
     setShippingCountry(Object.keys(countries)[0]);
   };
@@ -110,7 +109,7 @@ function Adressform({ checkouttoken, next }) {
               </Select>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <InputLabel>Shipping Country</InputLabel>
+              <InputLabel>Shipping cities</InputLabel>
               <Select
                 value={shippingSubdivision}
                 fullWidth
@@ -126,7 +125,7 @@ function Adressform({ checkouttoken, next }) {
               </Select>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <InputLabel>Shipping Country</InputLabel>
+              <InputLabel>Shipping fees</InputLabel>
               <Select
                 value={shippingOption}
                 fullWidth

@@ -56,12 +56,14 @@ function Paymentform({
       nextstep();
     }
   };
+
+  console.log(shippingdata, "test");
   return (
     <>
       <Review checkouttoken={checkouttoken} />
       <Divider />
       <Typography variant="h6" butterbottom style={{ margin: "20px 0" }}>
-        Payment method{" "}
+        Payment method
       </Typography>
       <Elements stripe={stripePromise}>
         <ElementsConsumer>
