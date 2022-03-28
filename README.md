@@ -1,3 +1,16 @@
+# E-commerce website Prototype 
+
+## It's time for you to take a closer look to some interesting commerce engine as " commerce.js " 
+
+### Packages used : 
+1. commerce.js
+2. material-ui
+3. react-stripe-js / stripe-js
+4. react-hook-form
+5. react-router-dom
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
