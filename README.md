@@ -1,6 +1,6 @@
 # E-commerce website Prototype 
 
-## It's time for you to take a closer look to some interesting commerce engine as " commerce.js " 
+## It's time for you to take a closer look to some interesting commerce engine as "commerce.js" 
 
 ### Packages used : 
 1. commerce.js
